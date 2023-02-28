@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #16A086;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 600px;
+    height: 480px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    background-image: url("./img/bicycle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 195px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-account-icon {
+    width: 30px;
+}
+
+.box-order-info {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #888;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-bottom: 15px;
+}
+
+.prod {
+    color: #889;
+}
+
+.prof {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-account {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.box-account:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.box-title {
+    transition: 0.3s;
+}
+
+.box-title:hover {
+    color: red;
+}
+
+table,th,td {
+    border: 5px solid red;
+    border-radius: 10px;
+}
